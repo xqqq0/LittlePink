@@ -3,29 +3,33 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		0459A2DB25DF57BA006B0377 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0459A2DA25DF57BA006B0377 /* AppDelegate.swift */; };
 		0459A2DD25DF57BA006B0377 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0459A2DC25DF57BA006B0377 /* SceneDelegate.swift */; };
-		0459A2DF25DF57BA006B0377 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0459A2DE25DF57BA006B0377 /* ViewController.swift */; };
 		0459A2E225DF57BA006B0377 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0459A2E025DF57BA006B0377 /* Main.storyboard */; };
 		0459A2E525DF57BA006B0377 /* LittlePink.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0459A2E325DF57BA006B0377 /* LittlePink.xcdatamodeld */; };
 		0459A2E725DF57BB006B0377 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0459A2E625DF57BB006B0377 /* Assets.xcassets */; };
 		0459A2EA25DF57BB006B0377 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0459A2E825DF57BB006B0377 /* LaunchScreen.storyboard */; };
+		0459A2F925DFAB32006B0377 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0459A2F825DFAB32006B0377 /* HomeViewController.swift */; };
+		5C2F82C98475D9699BCC8026 /* Pods_LittlePink.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 647F011C8BB733CEDA7FD10B /* Pods_LittlePink.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0459A2D725DF57BA006B0377 /* LittlePink.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LittlePink.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0459A2DA25DF57BA006B0377 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0459A2DC25DF57BA006B0377 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0459A2DE25DF57BA006B0377 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0459A2E125DF57BA006B0377 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0459A2E425DF57BA006B0377 /* LittlePink.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LittlePink.xcdatamodel; sourceTree = "<group>"; };
 		0459A2E625DF57BB006B0377 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0459A2E925DF57BB006B0377 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0459A2EB25DF57BB006B0377 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0459A2F825DFAB32006B0377 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		04B780A82584DCB4785562B7 /* Pods-LittlePink.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LittlePink.debug.xcconfig"; path = "Target Support Files/Pods-LittlePink/Pods-LittlePink.debug.xcconfig"; sourceTree = "<group>"; };
+		647F011C8BB733CEDA7FD10B /* Pods_LittlePink.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LittlePink.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4CB9ABE707BA974DD16C878 /* Pods-LittlePink.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LittlePink.release.xcconfig"; path = "Target Support Files/Pods-LittlePink/Pods-LittlePink.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C2F82C98475D9699BCC8026 /* Pods_LittlePink.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +49,8 @@
 			children = (
 				0459A2D925DF57BA006B0377 /* LittlePink */,
 				0459A2D825DF57BA006B0377 /* Products */,
+				AD1AE78A1E1B6DC74382E75F /* Pods */,
+				0796178219D67CBD40B74A8B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,14 +67,31 @@
 			children = (
 				0459A2DA25DF57BA006B0377 /* AppDelegate.swift */,
 				0459A2DC25DF57BA006B0377 /* SceneDelegate.swift */,
-				0459A2DE25DF57BA006B0377 /* ViewController.swift */,
 				0459A2E025DF57BA006B0377 /* Main.storyboard */,
+				0459A2F825DFAB32006B0377 /* HomeViewController.swift */,
 				0459A2E625DF57BB006B0377 /* Assets.xcassets */,
 				0459A2E825DF57BB006B0377 /* LaunchScreen.storyboard */,
 				0459A2EB25DF57BB006B0377 /* Info.plist */,
 				0459A2E325DF57BA006B0377 /* LittlePink.xcdatamodeld */,
 			);
 			path = LittlePink;
+			sourceTree = "<group>";
+		};
+		0796178219D67CBD40B74A8B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				647F011C8BB733CEDA7FD10B /* Pods_LittlePink.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AD1AE78A1E1B6DC74382E75F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				04B780A82584DCB4785562B7 /* Pods-LittlePink.debug.xcconfig */,
+				D4CB9ABE707BA974DD16C878 /* Pods-LittlePink.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,9 +101,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0459A2EE25DF57BB006B0377 /* Build configuration list for PBXNativeTarget "LittlePink" */;
 			buildPhases = (
+				7A2ADBF0FAA641970B34F784 /* [CP] Check Pods Manifest.lock */,
 				0459A2D325DF57BA006B0377 /* Sources */,
 				0459A2D425DF57BA006B0377 /* Frameworks */,
 				0459A2D525DF57BA006B0377 /* Resources */,
+				A737023427EAC89758C4EC92 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -135,15 +161,57 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7A2ADBF0FAA641970B34F784 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LittlePink-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A737023427EAC89758C4EC92 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LittlePink/Pods-LittlePink-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LittlePink/Pods-LittlePink-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LittlePink/Pods-LittlePink-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0459A2D325DF57BA006B0377 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0459A2DF25DF57BA006B0377 /* ViewController.swift in Sources */,
 				0459A2DB25DF57BA006B0377 /* AppDelegate.swift in Sources */,
 				0459A2DD25DF57BA006B0377 /* SceneDelegate.swift in Sources */,
 				0459A2E525DF57BA006B0377 /* LittlePink.xcdatamodeld in Sources */,
+				0459A2F925DFAB32006B0377 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +355,7 @@
 		};
 		0459A2EF25DF57BB006B0377 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04B780A82584DCB4785562B7 /* Pods-LittlePink.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -306,6 +375,7 @@
 		};
 		0459A2F025DF57BB006B0377 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4CB9ABE707BA974DD16C878 /* Pods-LittlePink.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
